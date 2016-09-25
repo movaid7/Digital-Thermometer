@@ -1,0 +1,161 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sun Sep 25 16:26:43 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 RES_VECT       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                      ISR       code   0x000004    program   0x0000c0
+                MAIN_PROG       code   0x000064    program   0x000294
+.config_2007_BUILD/DEFAULT/PRODUCTION/2145059       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x0001ad      
+                            0x002007    0x002007      
+            430 out of 4359 program addresses used, program memory utilization is 9%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    ALARM   0x000079    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 AlarmOff   0x00007f    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    Begin   0x000193    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               Binary2BCD   0x00018e    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 CHECK_T1   0x00000b    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 CHECK_T2   0x00000e    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+           Check_Release1   0x0000c2    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+           Check_Release2   0x0000e6    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+        Check_ReleaseDOWN   0x000099    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          Check_ReleaseUP   0x000087    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                     Cont   0x00011e    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                Continue0   0x0000a3    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                Continue1   0x0000c2    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                Continue2   0x0000e4    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               DELAY_0.5s   0x000168    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               DELAY_10ms   0x000178    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    DONE1   0x0000f7    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    DONE2   0x00010b    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               DONT_START   0x000152    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    DOWN0   0x000092    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    DOWN1   0x0000ba    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    DOWN2   0x0000dc    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    Delay   0x00017c    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 Delay05s   0x0001a3    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               Delay05s_0   0x0001a7    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 Delay_01   0x00016e    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 DispTens   0x000122    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                DispUnits   0x00012b    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                   Divide   0x000196    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                  EndConv   0x0001a2    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                EndDivide   0x00019c    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                High_Mode   0x0000c8    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               ISR_TIMER0   0x000115    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               ISR_TIMER2   0x000104    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    Inter   0x000008    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                JUMPDOWN0   0x00009d    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                  JUMPUP0   0x00008b    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 Low_Mode   0x0000a6    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                  NotFour   0x0000fe    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 RUN_MODE   0x000071    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    SETUP   0x000011    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                   SET_IT   0x0000f6    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                  SET_IT2   0x000109    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                SET_TIMER   0x000133    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               SSD_Output   0x000183    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    START   0x000064    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+              START_ALARM   0x00013b    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               STOP_ALARM   0x000157    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               Setup_HIGH   0x0000ce    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                Setup_LOW   0x0000ac    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          TIMER1_OVERFLOW   0x0000ec    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                      UP0   0x000080    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                      UP1   0x0000b2    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                      UP2   0x0000d4    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_00B7   0x00011b    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_010B   0x00016f    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_010D   0x000171    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_0110   0x000174    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_0111   0x000175    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_0112   0x000176    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_011C   0x000180    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_0144   0x0001a8    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_0147   0x0001ab    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    Inter   0x000008    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 CHECK_T1   0x00000b    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 CHECK_T2   0x00000e    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    SETUP   0x000011    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    START   0x000064    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 RUN_MODE   0x000071    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    ALARM   0x000079    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 AlarmOff   0x00007f    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                      UP0   0x000080    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          Check_ReleaseUP   0x000087    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                  JUMPUP0   0x00008b    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    DOWN0   0x000092    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+        Check_ReleaseDOWN   0x000099    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                JUMPDOWN0   0x00009d    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                Continue0   0x0000a3    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 Low_Mode   0x0000a6    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                Setup_LOW   0x0000ac    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                      UP1   0x0000b2    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    DOWN1   0x0000ba    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                Continue1   0x0000c2    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+           Check_Release1   0x0000c2    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                High_Mode   0x0000c8    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               Setup_HIGH   0x0000ce    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                      UP2   0x0000d4    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    DOWN2   0x0000dc    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                Continue2   0x0000e4    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+           Check_Release2   0x0000e6    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          TIMER1_OVERFLOW   0x0000ec    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                   SET_IT   0x0000f6    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    DONE1   0x0000f7    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                  NotFour   0x0000fe    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               ISR_TIMER2   0x000104    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                  SET_IT2   0x000109    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    DONE2   0x00010b    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               ISR_TIMER0   0x000115    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_00B7   0x00011b    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                     Cont   0x00011e    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 DispTens   0x000122    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                DispUnits   0x00012b    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                SET_TIMER   0x000133    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+              START_ALARM   0x00013b    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               DONT_START   0x000152    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               STOP_ALARM   0x000157    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               DELAY_0.5s   0x000168    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 Delay_01   0x00016e    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_010B   0x00016f    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_010D   0x000171    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_0110   0x000174    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_0111   0x000175    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_0112   0x000176    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               DELAY_10ms   0x000178    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    Delay   0x00017c    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_011C   0x000180    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               SSD_Output   0x000183    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               Binary2BCD   0x00018e    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                    Begin   0x000193    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                   Divide   0x000196    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                EndDivide   0x00019c    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                  EndConv   0x0001a2    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+                 Delay05s   0x0001a3    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+               Delay05s_0   0x0001a7    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_0144   0x0001a8    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+          _MAIN_PROG_0147   0x0001ab    program     static C:\Users\Muhammad\MPLABXProjects\Project4.X\214505927P4.asm
+
+

@@ -1,0 +1,49 @@
+Warning[205] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 49 : Found directive in column 1. (__CONFIG)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 119 : Found label after column 1. (Inter)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 124 : Found label after column 1. (CHECK_T1)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 129 : Found label after column 1. (CHECK_T2)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 143 : Found label after column 1. (SETUP)
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 146 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 147 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 148 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 149 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 150 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 153 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 157 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 158 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 159 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 160 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 176 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 202 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 217 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 302 : Found label after column 1. (MAIN_PROG)
+Message[305] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 324 : Using default destination of 1 (file).
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 343 : Found label after column 1. (Check_ReleaseUP)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 348 : Found label after column 1. (JUMPUP0)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 354 : Found label after column 1. (DOWN0)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 364 : Found label after column 1. (Check_ReleaseDOWN)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 369 : Found label after column 1. (JUMPDOWN0)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 374 : Found label after column 1. (Continue0)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 399 : Found label after column 1. (UP1)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 410 : Found label after column 1. (DOWN1)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 421 : Found label after column 1. (Continue1)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 425 : Found label after column 1. (Check_Release1)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 455 : Found label after column 1. (UP2)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 466 : Found label after column 1. (DOWN2)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 477 : Found label after column 1. (Continue2)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 481 : Found label after column 1. (Check_Release2)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 491 : Found label after column 1. (TIMER1_OVERFLOW)
+Message[305] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 510 : Using default destination of 1 (file).
+Message[305] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 516 : Using default destination of 1 (file).
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 518 : Found label after column 1. (NotFour)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 570 : Found label after column 1. (Cont)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 622 : Found label after column 1. (START_ALARM)
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 635 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 638 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 665 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 668 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 735 : Found label after column 1. (SSD_Output)
+Message[305] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 736 : Using default destination of 1 (file).
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 765 : Found label after column 1. (Begin)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 772 : Found label after column 1. (Divide)
+Warning[207] C:\USERS\MUHAMMAD\MPLABXPROJECTS\PROJECT4.X\214505927P4.ASM 786 : Found label after column 1. (EndDivide)
