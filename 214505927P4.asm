@@ -302,6 +302,15 @@ RUN_MODE
     call Delay05s
     MOVFW temperature
     MOVWF Display  
+    
+    movlw d'10'
+    movwf temp
+    BGTE timer, temp,resetTimer
+    goto ALARM
+    
+    resetTimer
+    clrf timer
+    clrf isFour
 
 ;----------------Alarm----------------
 ALARM  
@@ -311,6 +320,7 @@ ALARM
     BTFSS STATUS,C			;will skip if temp > high
     GOTO CheckLow
     call START_ALARM
+    goto UP0
     
     CheckLow
     movfw tempLow
@@ -414,7 +424,7 @@ Setup_LOW
     BTFSS STATUS,Z			;At 100, zero flag will be set - skip the next line and keep tempLow at 99
     GOTO Continue1
 	
-    movlw d'99'				;set tempLow to 99
+    movlw d'0'				;set tempLow to 99
     movwf tempLow
     Goto Continue1
     
@@ -435,7 +445,8 @@ Setup_LOW
     BTFSS tempLow,7			;If tempLow is negative, MSB will be set - skip the next line and keep tempLow value at 0
     Goto Continue1
 	
-    clrf tempLow
+    movlw d'99'				;set tempLow to 99
+    movwf tempLow
     Goto Continue1
     
     Continue1
@@ -488,7 +499,7 @@ Setup_HIGH
     BTFSS STATUS,Z			;At 100, zero flag will be set - skip the next line and keep tempHigh at 99
     GOTO Continue2
 	
-    movlw d'99'				;keep tempHigh at 99
+    movlw d'0'				;keep tempHigh at 99
     movwf tempHigh
     Goto Continue2
     
@@ -507,7 +518,8 @@ Setup_HIGH
     BTFSS tempHigh,7			;If tempHigh is negative, MSB will be set - skip the next line and keep tempHigh value at 0
     Goto Continue2
 	
-    clrf tempHigh
+    movlw d'99'				;set tempLow to 99
+    movwf tempLow
     Goto Continue2
     ;DOWN clicked - reset timer and dec temp_high
         
